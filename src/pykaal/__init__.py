@@ -3,6 +3,8 @@ try:
 except ImportError:  # pragma: no cover
     from importlib_metadata import PackageNotFoundError, version  # type: ignore
 
+from ._io import *
+
 try:
     __version__ = version(__name__)
 except PackageNotFoundError:  # pragma: no cover
