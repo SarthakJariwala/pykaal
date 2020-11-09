@@ -2,9 +2,9 @@
 Changelog
 =========
 
-Version 0.1
-===========
+Version 0.0.1
+=============
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+- Read Picoharp ".phd" files using 'read_phd()'
+- Extract information from the files such curves, resolution and other instrument settings
+- Plot the curves using matplotlib in the backend

@@ -1,5 +1,6 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+
 from ._picoharp_parser import PicoharpParser
 
 
@@ -17,6 +18,9 @@ class PicoHarp_300(object):
 
     def __repr__(self):
         return self.parser.info()
+
+    def __len__(self):
+        return len(self._curves)
 
     def curve(self, n):
         """Get histogram for a given curve number
