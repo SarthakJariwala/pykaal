@@ -4,7 +4,7 @@ import tempfile
 from pathlib import Path
 
 locations = "src", "tests", "noxfile.py", "docs/conf.py"
-nox.options.sessions = "safety", "tests", "xdoctest"
+nox.options.sessions = "safety", "tests"
 
 
 def install_with_constraints(session, *args, **kwargs):
