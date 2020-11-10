@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pykaal"
-version = "0.0.1"
+version = "0.0.2"
 description = "Fluorescence time analysis"
 authors = ["Sarthak Jariwala <jariwala@uw.edu>"]
 license = "MIT"
