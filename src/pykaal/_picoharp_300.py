@@ -22,6 +22,9 @@ class PicoHarp_300(object):
     def __len__(self):
         return len(self._curves)
 
+    def __getitem__(self, index):
+        return self.curve(index)
+
     def curve(self, n):
         """Get histogram for a given curve number
 

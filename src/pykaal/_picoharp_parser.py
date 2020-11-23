@@ -4,6 +4,7 @@ Check out the original code here ---
 https://github.com/skyjur/picoharp300-curvefit-ui
 
 Modified by Sarthak Jariwala
+- Updated CurvHdr to work on MacOS
 """
 
 import datetime
